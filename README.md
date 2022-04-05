@@ -1,0 +1,1 @@
+Hello! This is simple interest calculator for IBM course. Click [here](https://vasiljevdenis.github.io/simple-calc/)

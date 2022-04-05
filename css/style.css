@@ -1,0 +1,25 @@
+input[type="number"] {
+    width: 150px;
+}
+
+mark {
+    background-color: #cedef5 !important;
+}
+
+.off {
+    max-height: 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition-property: max-height, visibility, opacity;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.on {
+    max-height: 500px;
+    visibility: visible;
+    opacity: 1;
+    transition-property: max-height, visibility, opacity;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
